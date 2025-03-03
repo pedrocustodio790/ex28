@@ -7,6 +7,8 @@ import lombok.Setter;
 
 import java.util.Date;
 
+import java.time.LocalDate;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -14,5 +16,5 @@ import java.util.Date;
 public class Compra {
     private Fornecedor fornecedor;
     private double valor;
-    private Date data;
+    private LocalDate data;
 }

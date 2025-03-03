@@ -4,15 +4,19 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Produto {
-    public int idProduto;
-    public String nomeproduto;
-    public Double preco;
-    public Integer quantidade;
-    public String status;
+    private int idProduto;
+    private String nomeProduto;
+    private Double preco;
+    private Integer quantidade;
+    private String status;
 }

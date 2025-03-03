@@ -4,6 +4,9 @@ import lombok.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.time.LocalDate;
+import java.util.List;
+import lombok.*;
 
 @Setter
 @Getter
@@ -11,9 +14,8 @@ import java.util.ArrayList;
 @NoArgsConstructor
 @ToString
 public class Venda {
-    public String Nome;
-    public LocalDate datavenda;
-    public ArrayList<Produto> produtos;
-    public int idVenda;
+    private String nome;
+    private LocalDate dataVenda;
+    private List<Produto> produtos;
+    private int idVenda;
 }
-
